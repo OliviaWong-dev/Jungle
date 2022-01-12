@@ -11,6 +11,9 @@
     <%= humanized_money_with_symbol item.product.price %>
   </td>
   <td>
+    <%= item.quantity %>
+  </td>
+  <td>
     <%= humanized_money_with_symbol item.product.price * item.quantity %>
   </td>
 </tr>
