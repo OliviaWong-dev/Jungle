@@ -6,6 +6,11 @@ Rails.application.routes.draw do
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
   resources :about, only: [:index]
+  resources :users, only: [:new, :create]
+  # resources :sessions, only: [:new, :create, :destroy]
+  # get '/login' => 'sessions#new'
+  # post '/login' => 'sessions#create'
+  # get '/logout' => 'sessions#destroy'
 
   resource :cart, only: [:show] do
     post   :add_item
@@ -13,6 +18,7 @@ Rails.application.routes.draw do
   end
 
   resources :orders, only: [:create, :show]
+  resources :sessions, only: [:new, :create, :destroy]
 
   namespace :admin do
     root to: 'dashboard#show'
