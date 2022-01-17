@@ -48,7 +48,7 @@
           <% end %>
         </li>
         <% if current_user %>
-          <li>Signed in as <%= current_user.email %></li>
+          <li><a href="#"> Signed in as <%= current_user.email %></a></li>
           <li><%= link_to 'Logout', "/sessions/#{current_user.id}", method: :delete %></li>
         <% else %>
           <li><%= link_to 'Login', [:new_session] %></li> 
