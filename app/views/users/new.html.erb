@@ -14,8 +14,10 @@
     </div>
   </div>
   <div class="form-group">
+  <div class="form-group col-md-12">
     <label>Email</label>
     <%= f.text_field :email, class: "form-control" %>
+  </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
@@ -27,7 +29,11 @@
       <%= f.password_field :password_confirmation, class: "form-control" %>
     </div>
   </div>
-  <button %= f.submit "Submit" class: "btn-Secondary" %>Submit</button>
+  <div class="form-row">
+  <div class="form-group col-md-12">
+  <%= f.submit "Submit", class: "btn btn-primary" %>
+  </div>
+  </div>
 </form>
 <% end %>
 
