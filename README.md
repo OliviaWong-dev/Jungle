@@ -1,7 +1,6 @@
 # Jungle
 
-
-https://user-images.githubusercontent.com/82677285/149849039-ea4d4feb-c0c3-4905-985a-b4b0caa916ab.mov
+https://user-images.githubusercontent.com/82677285/149849407-a2956b86-61ee-494a-a6f6-1c7d3ce66df2.mov
 
 
 https://user-images.githubusercontent.com/82677285/149849102-c8a5689f-66b5-4041-b0a3-12174cd491c6.mov
